@@ -23,26 +23,29 @@
     </script>
   <title>MrJay's Product preview card component</title>
 </head>
-<body>
-      <h1 class="text-3xl font-bold underline">
-      Hello world!
-      </h1>
-
-      Perfume
-
-      Gabrielle Essence Eau De Parfum
-
-      A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-      Perfumer-Creator for the House of CHANEL.
-
-      $149.99
-      $169.99
-
-      Add to Cart
-      
-      <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+<body class="min-h-screen">
+      <div class="container mx-auto">
+            <div class="flex flex-row justify-center">
+                  <div class="flex lg:flex-row flex-col">
+                        <!-- <img src="./images/image-product-desktop.jpg" alt="Perfume Desktop Image" />          -->
+                        <img src="./images/image-product-mobile.jpg" alt="Perfume Desktop Image" />              
+                        <div>
+                              <div>Perfume</div>
+                              <h1> Gabrielle Essence Eau De Parfum</h1>
+                              <p>
+                                    A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                                    Perfumer-Creator for the House of CHANEL.
+                              </p>
+                              <div>                              
+                                    <div>
+                                          <h2> $149.99</h2>
+                                          <h3>$169.99</h3>
+                                    </div>
+                                    <button> Add to Cart</button>
+                              </div>
+                        </div>  
+                  </div>          
+            </div>
       </div>
 </body>
 </html>
